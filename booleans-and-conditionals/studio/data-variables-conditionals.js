@@ -56,3 +56,14 @@ if (weatherStatus !== "clear") {
 if (preparedForLiftOff = true) {
     console.log("Have a safe trip astronauts!")
 }
+
+console.log("date" + "=" + date);
+console.log("time" + "=" + time);
+console.log(astronautCount);
+console.log(crewMassKg);
+console.log(fuelMassKg);
+console.log(shuttleMassKg);
+console.log(totalMassKg);
+console.log(fuelTempCelsius);
+console.log(weatherStatus);
+console.log("Have a safe trip astronauts!")
