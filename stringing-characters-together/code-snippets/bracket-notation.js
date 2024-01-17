@@ -1,4 +1,5 @@
-let jsCreator = "Brendan Eich";
+let groceryBag = ['bananas', 'apples', 'edamame', 'chips', 'cucumbers', 'milk', 'cheese'];
+let selectedItems = [];
 
-console.log(jsCreator[-1]);
-console.log(jsCreator[42]);
+selectedItems = groceryBag.slice(2, 5).sort();
+console.log(selectedItems);
